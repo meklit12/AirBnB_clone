@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """
-This module contains the the entry point of the command interpreter
-for the AirBnB project.
+Contains the the entry point of the command interpreter
 """
 import re
 import cmd
@@ -17,7 +16,7 @@ from models.state import State
 
 def build_args(line):
     """
-    This function builds custom command line arguments for further
+    Builds custom command line arguments for further
     processing.
     """
     return line.split()
@@ -25,7 +24,7 @@ def build_args(line):
 
 def make_str_without_quotes(string):
     """
-    This function reconstructes the str without quote
+    Reconstructes the str without quote
     """
     ret = ""
     for ch in string:
