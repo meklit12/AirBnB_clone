@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Contains a BaseModel class for the AirBnB project.
+This module contains a BaseModel class for the AirBnB project.
 """
 import uuid
 from datetime import datetime
@@ -9,11 +9,11 @@ import models
 
 class BaseModel:
     """
-    Defines all common attributes/methods for other classes
+    This class defines all common attributes/methods for other classes
     """
     def __init__(self, *args, **kwargs):
         """
-        Instantiates instance attributes.
+        This method instantiates instance attributes.
         """
         self.id = str(uuid.uuid4())
         self.created_at = datetime.today()
@@ -33,14 +33,14 @@ class BaseModel:
 
     def __str__(self):
         """
-        Returns the string representation of the BaseModel object.
+        This method returns the string representation of the BaseModel object.
         """
         name = type(self).__name__
         return "[{}] ({}) {}".format(name, self.id, self.__dict__)
 
     def save(self):
         """
-        Updates the public instance attribute updated_at with the
+        This method updates the public instance attribute updated_at with the
         current datetime
         """
         self.updated_at = datetime.now()
@@ -48,7 +48,7 @@ class BaseModel:
 
     def to_dict(self):
         """
-        Returns a dictionary containing all keys/values
+        This method  returns a dictionary containing all keys/values
         of __dict__ of the instance
         """
         a_dict = self.__dict__.copy()

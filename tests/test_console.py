@@ -7,7 +7,7 @@ from io import StringIO
 
 class TestConsolePrompt(unittest.TestCase):
     """
-    Provides all possible test cases regarding prompt
+    This class provides all possible test cases regarding prompt
     response of class HBNBCommand.
     """
     def test_prompt_output(self):

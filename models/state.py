@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Defines a class called State that inherits
+This module defines a class called State that inherits
 from the BaseModel class
 """
 from models.base_model import BaseModel
@@ -8,7 +8,7 @@ from models.base_model import BaseModel
 
 class State(BaseModel):
     """
-    Represents a state object and inherits from
+    This class represents a state object and inherits from
     a BaseModel class.
     """
     name = ""

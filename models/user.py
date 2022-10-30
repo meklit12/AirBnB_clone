@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 """
-Defines a User class that inherits from BaseModel.
+This module defines a User class that inherits from BaseModel.
 """
 from models.base_model import BaseModel
 
 
 class User(BaseModel):
     """
-    Represents a user object and inherits from
+    This user class represents a user object and inherits from
     the BaseModel class.
     """
 
