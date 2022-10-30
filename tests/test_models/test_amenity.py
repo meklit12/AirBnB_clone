@@ -1,11 +1,8 @@
 #!/usr/bin/python3
 
 """
-File: test_amenity.py
-Desc: This module contains all possible testcases for the amenity.py
-      modlue in the models package. It uses the standard unittest.
-Author: Gizachew Bayness (Elec Crazy) and Biruk Gelelcha
-Date Created: Sep 2 2022
+This module contains all possible testcases for the amenity.py
+modlue in the models package. It uses the standard unittest.
 """
 import unittest
 import models
