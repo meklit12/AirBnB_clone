@@ -1,11 +1,8 @@
 #!/usr/bin/python3
 
 """
-File: test_amenity.py
-Desc: This module contains all possible testcases for the amenity.py
-      modlue in the models package. It uses the standard unittest.
-Author: Gizachew Bayness (Elec Crazy) and Biruk Gelelcha
-Date Created: Sep 2 2022
+Contains all possible testcases for the amenity.py
+modlue in the models package. It uses the standard unittest.
 """
 import unittest
 import models
@@ -18,7 +15,7 @@ import os
 
 class TestUserObjectCreation(unittest.TestCase):
     """
-    This class provides all possible test cases regarding object
+    Provides all possible test cases regarding object
     creation of class Amenity.
     """
 
@@ -92,7 +89,7 @@ class TestUserObjectCreation(unittest.TestCase):
 
 class TestAmenityStrMethod(unittest.TestCase):
     """
-    This class provides all possible test cases for __str__ method
+    Provides all possible test cases for __str__ method
     of class Amenity.
     """
 
@@ -115,7 +112,7 @@ class TestAmenityStrMethod(unittest.TestCase):
 
 class TestAmenityToDictMethod(unittest.TestCase):
     """
-    This class provides all possible test cases for to_dict method
+    Provides all possible test cases for to_dict method
     of class Amenity.
     """
 
@@ -168,7 +165,7 @@ class TestAmenityToDictMethod(unittest.TestCase):
 
 class TestAmenitySaveMethod(unittest.TestCase):
     """
-    This class provides all possible test cases for save method
+    Provides all possible test cases for save method
     of class Amenity.
     """
 
