@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This module defines a class called Place that inherits
+Defines a class called Place that inherits
 from the BaseModel class
 """
 from models.base_model import BaseModel
@@ -8,7 +8,7 @@ from models.base_model import BaseModel
 
 class Place(BaseModel):
     """
-    This class represents a Place object and inherits from
+    Represents a Place object and inherits from
     a BaseModel class.
     """
     city_id = ""
